@@ -1,0 +1,83 @@
+/* Style sheet for tributepage**/
+@import url(https://fonts.googleapis.com/css?family=Alata:regular);
+body{
+    color: #22333b;
+    align-self: center;
+}
+
+#div_1 {
+    background-color: #E5E6E4;
+    border-radius: 0.7%;
+    box-shadow: 1.5px 3px 10px .5px gray;
+    margin: .7%;
+}
+#tribute_name {
+    font-family:Alata, sans-serif;
+    font-weight: 900;
+    font-size: 4em;
+    text-align: center;
+    padding-top: 70px;
+    padding-bottom: 15px
+}
+#subtitle {
+    text-align: center;
+    font-family:Alata, sans-serif;
+    font-weight: light;
+    font-size: 2em;
+    transform: (.5, 1);
+}
+#picture {
+    background-color: white;
+    margin: 1%;
+    box-shadow: 1.5px 3px 10px .5px gray;
+    border-radius: 0.7%;
+    text-align: center;
+    display: block;
+}
+img{
+    width: 97%;
+    height: auto;
+    display: block; 
+    margin: auto;
+}
+#photo-sub{
+    text-align: center;
+    padding: 2%;
+    font-size: 1.5em;
+    margin: 1%;
+}
+#bio {
+    display: block;
+    text-align: center;
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-top: 5%;
+    font-family: Alata, sans-serif;
+    font-size: 1.7em;
+}
+#timeline-header {
+    font-family: Alata, sans-serif;
+    font-size: 1.7em;
+}
+#bio-list {
+    display: block;
+    text-align: left;
+}
+#quote {
+    display: block;
+    text-align: left;
+    font-size: 0.7em;
+}
+a {
+    text-decoration: none;
+}
+a:hover{
+    text-decoration:underline;
+}
+#wiki-link{
+    font-size: 150%;
+    padding-bottom: 2%;
+    display: block;
+    text-align: center;
+    font-weight: bold;
+}
